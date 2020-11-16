@@ -15,7 +15,7 @@ var server = http.createServer(function(request, response) {
   var absPath = "./" + filePath;
   serverWorking(response, absPath);
 }).listen(3000);
-// var port_number = server.listen(process.env.PORT || 3000);
+//for heroku server use this -> var port_number = server.listen(process.env.PORT || 3000);
 
 function serverWorking(response, absPath) {
   fs.exists(absPath, function(exists) {

@@ -1,7 +1,8 @@
 {
-  "name": "blog",
+  "name": "Blog Simple",
   "version": "0.0.1",
-  "description": "My minimalistic blog",
+  "description": "This is a simple node blog for testing",
+  "author": "Adelaja Ricketts <daverickyus@gmail.com>",
   "dependencies": {
     "mime": "~1.2.7"
   }
